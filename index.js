@@ -86,4 +86,4 @@ bot.on("error",err => {
 
 
 
-bot.login(botconfig.token);
+bot.login(process.env.token);
